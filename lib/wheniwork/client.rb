@@ -1,5 +1,6 @@
 require 'wheniwork/request'
 require 'wheniwork/client/shifts'
+require 'wheniwork/client/times'
 
 module WhenIWork
   class Client
