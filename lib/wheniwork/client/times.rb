@@ -3,7 +3,7 @@ module WhenIWork
     module Times
 
       def times(params = {})
-        get 'times', params)
+        get 'times', params
       end
 
     end
