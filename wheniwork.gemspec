@@ -6,8 +6,7 @@ require 'wheniwork/version'
 Gem::Specification.new do |spec|
   spec.name          = "wheniwork"
   spec.version       = Wheniwork::VERSION
-  spec.authors       = ["Carlos Vilhena"]
-  spec.email         = ["carlosvilhena@gmail.com"]
+  spec.authors       = ["Roger Killer"]
   spec.description   = %q{Wrapper for the WhenIWork's API}
   spec.summary       = %q{Wrapper for the WhenIWork's API}
   spec.homepage      = ""
