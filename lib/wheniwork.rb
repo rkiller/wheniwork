@@ -1,7 +1,5 @@
 require 'json'
 require 'faraday'
-require 'active_support'
-require 'faraday_middleware'
 
 require 'wheniwork/version'
 require 'wheniwork/configuration'
