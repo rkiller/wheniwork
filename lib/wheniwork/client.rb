@@ -3,6 +3,7 @@ require 'wheniwork/client/shifts'
 require 'wheniwork/client/times'
 require 'wheniwork/client/users'
 require 'wheniwork/client/locations'
+require 'wheniwork/client/positions'
 
 module WhenIWork
   class Client
@@ -11,5 +12,6 @@ module WhenIWork
     include WhenIWork::Client::Times
     include WhenIWork::Client::Users
     include WhenIWork::Client::Locations
+    include WhenIWork::Client::Positions
   end
 end
